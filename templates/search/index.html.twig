@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello SearchController!{% endblock %}
+
+{% block body %}
+{% for result in results %}
+<pre>
+    {{ dump(result) }}
+</pre>
+
+{% endfor %}
+{% endblock %}
